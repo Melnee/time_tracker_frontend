@@ -1,0 +1,47 @@
+.moon-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.moon {
+  width: 200px; /* Adjust the size of the circle as needed */
+  height: 200px; /* Adjust the size of the circle as needed */
+  background: #fff; /* Set the color of the circle */
+  border-radius: 50%;
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  width: 26px; /* Adjust the size of the circle as needed */
+  height: 50px; /* Adjust the size of the circle as needed */
+  background: blue;
+  border-radius: 50%;
+  top: 34%;
+}
+
+.eye.squint {
+  width: 26px;
+  height: 26px;
+  border-radius: 50% / 100% 100% 0 0;
+  transform: rotate(-45deg);
+  transition: 0.07s ease-in-out;
+}
+
+.left {
+  left: 20%;
+}
+
+.left:hover {
+  transform: translate(-50%, -50%) translateX(-200px) translateY(200px);
+}
+
+.right {
+  left: 50%;
+}
+
+.right:hover {
+  transform: translate(-50%, -50%) translateX(200px) translateY(200px);
+}
