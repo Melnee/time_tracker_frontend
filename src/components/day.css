@@ -1,0 +1,19 @@
+.day-box {
+  border: 2px white solid;
+  border-radius: 7px;
+  height: 100%;
+  width: 14%;
+  margin-left: 5px;
+  margin-right: 5px;
+  min-width: 100px;
+}
+
+.day-header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  border: 2px white solid;
+  margin: 5px;
+  border-radius: 7px;
+  text-align: center;
+}

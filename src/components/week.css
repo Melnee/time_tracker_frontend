@@ -1,0 +1,6 @@
+.week-box {
+  display: flex;
+  height: 80%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
